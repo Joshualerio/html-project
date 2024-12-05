@@ -14,14 +14,12 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            color: aqua;
+            color: green;
         }
 
         /* Body styling with background image */
         body {
             font-family: century;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(dessert.jpg);
-            background-size: cover; /* Ensures the background image covers the entire page */
             color: orange;
             text-align: center;
             padding: 20px;
@@ -30,6 +28,7 @@
             flex-direction: column;
             justify-content: center;
             min-height: 100px;
+            background-color: darkblue;
         }
 
         /* Container for the menu */
@@ -76,7 +75,7 @@
 
         /* Hover effect for each appetizer */
         .appetizer-item:hover {
-            background-color: #bdc3c7;
+            background-color: #fff;
             cursor: pointer;
         }
 
@@ -102,7 +101,7 @@
             color: #000;
         }
 
-        /* Active item state */
+        
         ul li.active a {
             background-color: #000;
             color: #fff;
@@ -118,7 +117,7 @@
             
         }
         #special-1 {
-    color: aqua; /* Red color for special item */
+    color: aqua; 
 }
 #special-2 {
     color: aqua;
@@ -131,11 +130,10 @@
 </head>
 <body>
 
-    <!-- Main container for the menu -->
+
     <div id="menu-container">
         <h1>Dessert Menu</h1>
         
-        <!-- List of appetizers -->
         <div>
             <h2>Dessert List</h2>
             <ul>
@@ -146,13 +144,13 @@
             </ul>
         </div>
 
-        <!-- Specials section -->
+        
         <div>
             <h2>Today's Specials Dessert</h2>
             <ul>
-                <li><a href="appetizer-item"id="special-1">Halo-halo</a></li>
-                <li><a href="appetizer-item"id="special-2">Fruit Salad</a></li>
-                <li><a href="appetizer-item"id="special-2">Manggo Float</a></li>
+                <li><a href="Halo-halo.html"id="special-1">Halo-halo</a></li>
+                <li><a href="Fruit Salad.html"id="special-2">Fruit Salad</a></li>
+                <li><a href="Manggo Float.html"id="special-2">Manggo Float</a></li>
             </ul>
         </div>
     </div>

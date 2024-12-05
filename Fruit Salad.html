@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>  
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biko Image</title>
+    <title>FRUIT SALAD</title>
     <link rel="icon" href="logo.png" type="image/png">
     <style>
         
@@ -23,25 +23,25 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            overflow: hidden; /* Prevent horizontal scrolling */
+            overflow: hidden; /* To prevent horizontal scrolling if images exceed screen width */
         }
 
         /* Container for the images */
         .image-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
             gap: 20px; 
             max-width: 900px;
             margin: 0 auto;
-            justify-items: center; /* Center images inside grid */
+            justify-items: center; /* Centers the images within the grid */
         }
 
         /* Styling for individual image items */
         .image-container img {
-            width: 100%; /* Ensures images fill their container */
-            height: auto; /* Maintain aspect ratio */
-            max-width: 280px; /* Limit the maximum width */
-            max-height: 250px; /* Limit the maximum height */
+            width: 100%; /* Ensures images fit inside their container */
+            height: auto; /* Keeps the aspect ratio intact */
+            max-width: 280px; /* Restrict max width for uniformity */
+            max-height: 250px; /* Restrict max height for uniformity */
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth transition for hover */
@@ -49,7 +49,7 @@
 
         /* Hover effect for images */
         .image-container img:hover {
-            transform: scale(1.05); /* Slight zoom effect */
+            transform: scale(1.05); /* Slight zoom-in effect */
             box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
         }
 
@@ -71,19 +71,17 @@
 </head>
 <body>
 
-    <h1>Biko Image</h1>
+    <h1>FRUIT SALAD</h1>
 
     <!-- Container for the images -->
     <div class="image-container">
-        <img src="biko6.webp" alt="Image 1">
-        <img src="biko 1.jpg" alt="Image 2">
-        <img src="biko 2.jpg" alt="Image 3">
-        <img src="biko3.jpg" alt="Image 4">
-        <img src="biko4.webp" alt="Image 5">
-        <img src="biko5.jpg" alt="Image 6">
+        <img src="salad1.jpg" alt="Image 1">
+        <img src="salad2.jpg" alt="Image 2">
+        <img src="salad3.jpg" alt="Image 3">
+        <img src="salad4.jpg" alt="Image 4">
+        <img src="salad5.jpg" alt="Image 5">
+        <img src="salad6.jpg" alt="Image 6">
     </div>
 
 </body>
 </html>
-
-
